@@ -39,8 +39,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    height: 50vw;
-    max-width: 15vw;
+    height: 35vw;
     border: 3px dashed pink;
     padding: 3vw;
 }
