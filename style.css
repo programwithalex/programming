@@ -29,15 +29,20 @@ footer {
     display: flex;
     justify-content:space-evenly ;
     align-items: center;
-    
-    border: 2px dashed purple;
+}
+
+.def {
+    padding-top: 2vw;
 }
 
 .imgs {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
+    height: 50vw;
     max-width: 15vw;
     border: 3px dashed pink;
+    padding: 3vw;
 }
 
 .image-size {
