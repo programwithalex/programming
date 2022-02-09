@@ -39,7 +39,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    margin-top: 14vh;
+    margin-top: 7vh;
     width: 20vw;
     height: 35vw;
     border: 3px dashed pink;
@@ -51,5 +51,5 @@ footer {
 }
 
 .bigger-image-size {
-    /*height: 44vh;*/
+    height: 30vh;
 }
