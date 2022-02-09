@@ -39,6 +39,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    width: 20vw;
     height: 35vw;
     border: 3px dashed pink;
     padding: 3vw;
@@ -46,4 +47,8 @@ footer {
 
 .image-size {
     width: 15vw;
+}
+
+.bigger-image-size {
+    height: 15vw;
 }
