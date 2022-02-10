@@ -6,18 +6,13 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: black;
-    /*border: 2px dashed cyan;*/
-    color: white;
-    width: 100vw;
-    height: 8vh;
-}
-
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    /*border: 2px dashed cyan;*/
+    color: white;
     width: 100vw;
     height: 8vh;
 }
