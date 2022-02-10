@@ -24,7 +24,7 @@ nav {
 .body {
     background: #ffe3f8;
     /*border: 2px dashed yellow;*/
-    height: 80vh;
+    height: fit-content;
 }
 
 header nav a {
@@ -49,6 +49,7 @@ footer {
     display: flex;
     justify-content:space-evenly ;
     align-items: center;
+    padding: 5vh 5vw;
 }
 
 .def {
@@ -61,7 +62,7 @@ footer {
     align-content: space-between;
     margin-top: 7vh;
     width: 20vw;
-    height: 35vw;
+    height: 38vw;
     border: 3px dashed pink;
     padding: 3vw;
 }
@@ -73,3 +74,15 @@ footer {
 .bigger-image-size {
     height: 30vh;
 }
+
+@media only screen and (max-width: 1200px) {
+    .body .slider {
+        flex-direction: column;
+    }
+
+    .imgs {
+        height: fit-content;
+        width: fit-content;
+        padding: 8vh 5vw;
+    }
+  }
