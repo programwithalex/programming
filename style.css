@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #b8b8b8;
+}
+
 nav {
     display: flex;
     justify-content: center;
