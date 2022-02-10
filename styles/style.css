@@ -85,4 +85,9 @@ footer {
         width: fit-content;
         padding: 8vh 5vw;
     }
+
+    .bigger-image-size {
+        height: auto;
+        width: 12vw;
+    }
   }
