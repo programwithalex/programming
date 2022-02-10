@@ -60,6 +60,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    justify-content: center;
     margin-top: 7vh;
     width: 20vw;
     height: 38vw;
@@ -84,6 +85,10 @@ footer {
         height: fit-content;
         width: fit-content;
         padding: 8vh 5vw;
+    }
+
+    .image-size {
+        width: 35vw;
     }
 
     .bigger-image-size {
