@@ -81,7 +81,7 @@ footer {
     }
 
     .imgs {
-        height: 60vh;
+        height: fit-content;
         width: fit-content;
         padding: 8vh 5vw;
     }
