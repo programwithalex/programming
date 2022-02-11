@@ -90,7 +90,7 @@ footer {
     flex-direction: column;
     position: fixed;
     right: 2vw;
-    bottom: auto;
+    bottom: 5vh;
     height: 15vh;
     justify-items: center;
     align-content: space-between;
