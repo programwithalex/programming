@@ -130,3 +130,19 @@ footer {
         width: 12vw;
     }
   }
+
+.section-heading {
+    font-family: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.down-btn {
+    border-radius: 1vw;
+    background-color: #ff11ff;
+}
+
+.down-btn a{
+    font-weight: 800;
+    text-decoration: none;
+}
