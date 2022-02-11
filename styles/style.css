@@ -7,18 +7,19 @@
 }
 
 body {
-    background-color: #b8b8b8;
+    background-color: #ffe3f8;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #ff71cc;
     /*border: 2px dashed cyan;*/
-    position: relative;
-    top: 3vh;
-    border-radius: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 2vh;
+    border-radius: 35px;
     color: white;
     width: 100vw;
     height: 8vh;
@@ -33,6 +34,7 @@ nav {
 header nav a {
     position: relative;
     bottom: auto;
+    left: 5vw;
     text-decoration: none;
     color: #ffe3f8;
     font-weight: bold;
