@@ -10,6 +10,11 @@ body {
     background-color: #ffe3f8;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -20,7 +25,6 @@ nav {
     top: 1vh;
     border-radius: 20px;
     color: white;
-    margin: 0px auto;
     width: 88vw;
     height: 8vh;
 }
@@ -105,11 +109,6 @@ footer {
 .share-img {
     width: 3vw;
 }
-
-.fb-share-img {
-    width: 5vw;
-}
-
 @media only screen and (max-width: 1200px) {
     .body .slider {
         flex-direction: column;
