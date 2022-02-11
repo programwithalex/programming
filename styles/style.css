@@ -20,7 +20,8 @@ nav {
     top: 1vh;
     border-radius: 20px;
     color: white;
-    width: 100vw;
+    margin: 0px auto;
+    width: 88vw;
     height: 8vh;
 }
 
