@@ -91,6 +91,7 @@ footer {
     position: fixed;
     right: 2vw;
     bottom: 5vh;
+    z-index: 1;
     height: 15vh;
     justify-items: center;
     align-content: space-between;
