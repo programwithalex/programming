@@ -88,6 +88,9 @@ footer {
 .share {
     display: flex;
     flex-direction: column;
+    position: fixed;
+    right: 2vw;
+    bottom: auto;
     height: 15vh;
     justify-items: center;
     align-content: space-between;
