@@ -14,8 +14,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #ff71cc;
     /*border: 2px dashed cyan;*/
+    padding-top: 3vh;
+    border-radius: 10px;
     color: white;
     width: 100vw;
     height: 8vh;
