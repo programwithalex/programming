@@ -37,7 +37,8 @@ nav {
 header nav .web-name {
     position: relative;
     bottom: auto;
-    left: 6vw;
+    left: 1vw;
+    margin-right: 20vw;
     text-decoration: none;
     color: #ff11ff;
     font-weight: bold;
