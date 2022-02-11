@@ -16,8 +16,9 @@ nav {
     align-items: center;
     background-color: #ff71cc;
     /*border: 2px dashed cyan;*/
-    padding-top: 3vh;
-    border-radius: 10px;
+    position: relative;
+    top: 3vh;
+    border-radius: 50px;
     color: white;
     width: 100vw;
     height: 8vh;
@@ -30,6 +31,8 @@ nav {
 }
 
 header nav a {
+    position: relative;
+    bottom: auto;
     text-decoration: none;
     color: #ffe3f8;
     font-weight: bold;
