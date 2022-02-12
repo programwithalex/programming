@@ -66,6 +66,7 @@ footer {
     background: #ffe3f8;
     display: flex;
     justify-content:space-evenly ;
+    flex-wrap: wrap;
     align-items: center;
     padding: 5vh 5vw;
 }
