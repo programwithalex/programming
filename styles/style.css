@@ -110,7 +110,7 @@ footer {
 .share-img {
     width: 3vw;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     .body .slider {
         flex-direction: column;
     }
@@ -136,6 +136,7 @@ footer {
 
     .web-name {
         position: static;
+        margin: auto;
     }
 
     .nav-links {
