@@ -77,6 +77,7 @@ footer {
 .imgs {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
     margin-top: 7vh;
@@ -111,9 +112,9 @@ footer {
     width: 3vw;
 }
 @media only screen and (max-width: 600px) {
-    .body .slider {
+    /*.body .slider {
         flex-direction: column;
-    }
+    }*/
 
     .imgs {
         height: fit-content;
@@ -131,12 +132,12 @@ footer {
     }
 
     nav {
-        justify-content: center;
+        text-align: center;
     }
 
     .web-name {
         position: static;
-        margin: auto;
+        margin: 0px;
     }
 
     .nav-links {
