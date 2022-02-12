@@ -129,6 +129,26 @@ footer {
         height: auto;
         width: 12vw;
     }
+
+    nav {
+        justify-content: center;
+    }
+
+    .web-name {
+        position: static;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .share {
+        height: 28vh;
+    }
+
+    .share-img {
+        width: 8vw;
+    }
   }
 
 .section-heading {
@@ -145,4 +165,5 @@ footer {
 .down-btn a{
     font-weight: 800;
     text-decoration: none;
+    padding: 1vw 1vh;
 }
