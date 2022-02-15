@@ -45,7 +45,7 @@ header nav .web-name {
     font-size: 4vh;
 }
 
-.nav-links{
+.nav-links {
     text-decoration: none;
     color: #ff55ff;
 }
@@ -65,7 +65,7 @@ footer {
 .body .slider {
     background: #ffe3f8;
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     padding: 5vh 5vw;
@@ -111,6 +111,7 @@ footer {
 .share-img {
     width: 3vw;
 }
+
 @media only screen and (max-width: 600px) {
     .body .slider {
         flex-direction: column;
@@ -151,7 +152,7 @@ footer {
     .share-img {
         width: 8vw;
     }
-  }
+}
 
 .section-heading {
     font-family: 3em;
@@ -164,7 +165,7 @@ footer {
     background-color: #ff11ff;
 }
 
-.down-btn a{
+.down-btn a {
     font-weight: 800;
     text-decoration: none;
     padding: 1vw 1vh;
